@@ -1,0 +1,24 @@
+{
+  "name": "discord-amoled-dark-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./src/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datkat21/Discord-Amoled-Dark-Theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datkat21/Discord-Amoled-Dark-Theme/issues"
+  },
+  "homepage": "https://github.com/datkat21/Discord-Amoled-Dark-Theme#readme",
+  "dependencies": {
+    "esbuild": "^0.14.48",
+    "sass": "^1.53.0"
+  }
+}
