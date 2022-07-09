@@ -1,5 +1,5 @@
 //Discord-Amoled-Dark-Theme (c) 2022 by datkat21
-.theme-dark * {
+.theme-dark {
   --background-primary: #000000 !important;
   --background-secondary: #000000 !important;
   --background-secondary-alt: #000000 !important;
@@ -25,7 +25,7 @@
   --modal-background: rgb(0, 0, 0) !important;
 }
 
-.theme-light * {
+.theme-light {
   --background-primary: #fff !important;
   --background-secondary: #fff !important;
   --background-tertiary: #fff !important;
@@ -61,16 +61,10 @@
   max-width: 100% !important;
 }
 
-.connectedAccounts-1YaT2t {
-  gap: 10px !important;
-  margin-top: 0px !important;
-  justify-content: flex-start !important;
-}
-
-.connectedAccount-1xKpli {
-  margin-top: 0px;
-  flex: 1;
-  max-width: 240px;
+// 7/9/2022: Somewhat of a fix for Discord's connections update
+.connectedAccountContainer-SlCC-S {
+  background-color: --background-primary;
+  border: 1px solid #25272b;
 }
 
 [aria-label="User Profile Modal"],
